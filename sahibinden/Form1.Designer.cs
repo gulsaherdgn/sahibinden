@@ -40,6 +40,8 @@
             this.txtSifre = new System.Windows.Forms.TextBox();
             this.txtYas = new System.Windows.Forms.TextBox();
             this.btnUyeOl = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -141,11 +143,20 @@
             this.btnUyeOl.UseVisualStyleBackColor = true;
             this.btnUyeOl.Click += new System.EventHandler(this.btnUyeOl_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(397, 26);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(874, 548);
+            this.dataGridView1.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 649);
+            this.ClientSize = new System.Drawing.Size(1310, 649);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnUyeOl);
             this.Controls.Add(this.txtYas);
             this.Controls.Add(this.txtSifre);
@@ -160,6 +171,8 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "sahibinden.com";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,6 +192,7 @@
         private System.Windows.Forms.TextBox txtSifre;
         private System.Windows.Forms.TextBox txtYas;
         private System.Windows.Forms.Button btnUyeOl;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
