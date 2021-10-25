@@ -1,0 +1,10 @@
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\bin\Debug\sahibinden.exe.config
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\bin\Debug\sahibinden.exe
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\bin\Debug\sahibinden.pdb
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\obj\Debug\sahibinden.csprojAssemblyReference.cache
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\obj\Debug\sahibinden.Form1.resources
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\obj\Debug\sahibinden.Properties.Resources.resources
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\obj\Debug\sahibinden.csproj.GenerateResource.cache
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\obj\Debug\sahibinden.csproj.CoreCompileInputs.cache
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\obj\Debug\sahibinden.exe
+C:\Users\OnesUser\source\repos\sahibinden\sahibinden\obj\Debug\sahibinden.pdb
