@@ -34,12 +34,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.txtEposta = new System.Windows.Forms.TextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.txtYas = new System.Windows.Forms.TextBox();
+            this.btnUyeOl = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,61 +96,62 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Yaşınız";
             // 
-            // textBox1
+            // txtAd
             // 
-            this.textBox1.Location = new System.Drawing.Point(49, 147);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(265, 20);
-            this.textBox1.TabIndex = 6;
+            this.txtAd.Location = new System.Drawing.Point(49, 147);
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(265, 20);
+            this.txtAd.TabIndex = 6;
             // 
-            // textBox2
+            // txtSoyad
             // 
-            this.textBox2.Location = new System.Drawing.Point(49, 238);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(265, 20);
-            this.textBox2.TabIndex = 7;
+            this.txtSoyad.Location = new System.Drawing.Point(49, 238);
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(265, 20);
+            this.txtSoyad.TabIndex = 7;
             // 
-            // textBox3
+            // txtEposta
             // 
-            this.textBox3.Location = new System.Drawing.Point(49, 338);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(265, 20);
-            this.textBox3.TabIndex = 8;
+            this.txtEposta.Location = new System.Drawing.Point(49, 338);
+            this.txtEposta.Name = "txtEposta";
+            this.txtEposta.Size = new System.Drawing.Size(265, 20);
+            this.txtEposta.TabIndex = 8;
             // 
-            // textBox4
+            // txtSifre
             // 
-            this.textBox4.Location = new System.Drawing.Point(49, 423);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(265, 20);
-            this.textBox4.TabIndex = 9;
+            this.txtSifre.Location = new System.Drawing.Point(49, 423);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.Size = new System.Drawing.Size(265, 20);
+            this.txtSifre.TabIndex = 9;
             // 
-            // textBox5
+            // txtYas
             // 
-            this.textBox5.Location = new System.Drawing.Point(49, 507);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(265, 20);
-            this.textBox5.TabIndex = 10;
+            this.txtYas.Location = new System.Drawing.Point(49, 507);
+            this.txtYas.Name = "txtYas";
+            this.txtYas.Size = new System.Drawing.Size(265, 20);
+            this.txtYas.TabIndex = 10;
             // 
-            // button1
+            // btnUyeOl
             // 
-            this.button1.Location = new System.Drawing.Point(144, 551);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Üye Ol";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnUyeOl.Location = new System.Drawing.Point(144, 551);
+            this.btnUyeOl.Name = "btnUyeOl";
+            this.btnUyeOl.Size = new System.Drawing.Size(75, 23);
+            this.btnUyeOl.TabIndex = 11;
+            this.btnUyeOl.Text = "Üye Ol";
+            this.btnUyeOl.UseVisualStyleBackColor = true;
+            this.btnUyeOl.Click += new System.EventHandler(this.btnUyeOl_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(423, 681);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(396, 649);
+            this.Controls.Add(this.btnUyeOl);
+            this.Controls.Add(this.txtYas);
+            this.Controls.Add(this.txtSifre);
+            this.Controls.Add(this.txtEposta);
+            this.Controls.Add(this.txtSoyad);
+            this.Controls.Add(this.txtAd);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -159,7 +160,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "sahibinden.com";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,12 +173,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtAd;
+        private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.TextBox txtEposta;
+        private System.Windows.Forms.TextBox txtSifre;
+        private System.Windows.Forms.TextBox txtYas;
+        private System.Windows.Forms.Button btnUyeOl;
     }
 }
 
